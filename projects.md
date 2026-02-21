@@ -6,3 +6,5 @@
 4. Tic Tac Toe Game
 5. Rock Paper Scissors Game
 6. Hang Man Game
+7. Calculator App
+8. Quiz App
