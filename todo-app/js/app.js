@@ -9,3 +9,7 @@ function addTask() {
         <i class="fa-solid fa-pen" id="edit"></i>
     </div>`;
 }
+
+function clearAll() {
+    taskList.innerHTML = "";
+}
