@@ -1,0 +1,13 @@
+# Projects:
+
+1. Todo App
+2. Sticky Notes
+3. Fighting Animation
+4. Tic Tac Toe Game
+5. Rock Paper Scissors Game
+6. Hang Man Game
+7. Calculator App
+8. Quiz App
+9. Hand Cricket
+10. Toss Game
+11. Heads and Tails Game
