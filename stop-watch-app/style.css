@@ -16,11 +16,6 @@ body {
     justify-content: center;
 }
 
-.time-text span {
-    display: block;
-    font-size: 30px;
-}
-
 .time-control {
     margin-top: 40px;
     display: flex;
