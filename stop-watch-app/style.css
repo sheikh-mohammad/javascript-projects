@@ -1,0 +1,35 @@
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.time-text {
+    display: flex;
+    color: #5365C3;
+    font-size: 60px;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.time-text span {
+    display: block;
+    font-size: 30px;
+}
+
+.time-control {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+#play, #pause, #reset {
+    color: #5365C3;
+    font-size: 30px;
+    background: none;
+    border: none;
+}

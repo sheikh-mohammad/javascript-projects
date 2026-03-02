@@ -5,11 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    <div class="image-box">
+        <img src="assets/images/watch-image.png" alt="" width="400px">
+    </div>
+    <div class="time-text">
+        <div class="hr">00
+            <span>Hour</span>
+        </div>
+        <div>:</div>
+        <div class="min">00
+            <span>Min</span>
+        </div>
+        <div>:</div>
+        <div class="sec">00
+            <span>Sec</span>
+        </div>
+    </div>
+    <div class="time-control">
+        <div class="play-pause">
+            <button id="play" onclick="startTimer(this)">
+                <i class="fa-solid fa-play"></i>
+            </button>
+            <!-- <i class="fa-solid fa-pause" id="pause" onclick="startTimer(this)"></i> -->
+        </div>
+        <div class="reset">
+            <button id="reset">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+            </button>
+        </div>
+    </div>
 </body>
 <script src="app.js"></script>
 
